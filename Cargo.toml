@@ -1,0 +1,8 @@
+[package]
+name = "dllInjector"
+version = "0.1.0"
+authors = ["segfo <k.segfo@gmail.com>"]
+
+[dependencies]
+libc = "0.2.0"
+clap = "2.27.1"

@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "gdb",
+            "request": "launch",
+            "target": "./target/debug/dllInjector",
+            "cwd": "${workspaceRoot}",
+            "arguments":[
+                "-f ..\\injectDll\\target\\debug\\apiHook.dll -p 11328"
+            ]
+        }
+    ]
+}
